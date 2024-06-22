@@ -14,6 +14,20 @@ public class TestClass2 {
 	public void secondTest() 
 	{ 
 	   System.out.println("Second Test Method class2"); 
+	   
+	   System.out.println("First change"); 
+	   
+	   System.out.println("Second change"); 
 	  }
+	
+	public void thirdTest() 
+	{ 
+	   System.out.println("Third status changed "); 
+	   
+	   System.out.println("Third First change"); 
+	   
+	   System.out.println("Third Second change"); 
+	  }
+
 
 }
