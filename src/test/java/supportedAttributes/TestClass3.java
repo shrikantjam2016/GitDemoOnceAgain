@@ -23,4 +23,13 @@ public class TestClass3 {
 	   System.out.println("Third Second change"); 
 	  }
 
+	
+	public void devTest3() 
+	{ 
+	   System.out.println("This is third test in dev test 3 method "); 
+	   
+	   System.out.println(" Except the changes"); 
+	
+	  }
+
 }
