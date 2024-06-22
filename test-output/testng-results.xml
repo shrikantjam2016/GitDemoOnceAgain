@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90" started-at="2020-11-01T22:53:43 IST" finished-at="2020-11-01T22:53:44 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90" started-at="2020-11-01T22:53:43 IST" finished-at="2020-11-01T22:53:44 IST">
+      <class name="supportedAttributes.TestClass2">
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:supportedAttributes.TestClass2@6ddf90b0]" name="firstTest" duration-ms="15" started-at="2020-11-01T22:53:43 IST" finished-at="2020-11-01T22:53:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RSVM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:supportedAttributes.TestClass2@6ddf90b0]" name="secondTest" duration-ms="8" started-at="2020-11-01T22:53:44 IST" finished-at="2020-11-01T22:53:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- supportedAttributes.TestClass2 -->
+      <class name="supportedAttributes.TestClass">
+        <test-method status="PASS" signature="firstTest()[pri:9, instance:supportedAttributes.TestClass@2b2948e2]" name="firstTest" duration-ms="15" started-at="2020-11-01T22:53:43 IST" finished-at="2020-11-01T22:53:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:11, instance:supportedAttributes.TestClass@2b2948e2]" name="secondTest" duration-ms="3" started-at="2020-11-01T22:53:44 IST" finished-at="2020-11-01T22:53:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- supportedAttributes.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

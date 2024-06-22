@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2" >
+  <test  name="Test">
+  <parameter name = "Name" value = "Deep"/> 
+<parameter name = "School" value = "RSVM" /> 
+<parameter name = "STD" value = "Six" /> 
+<parameter name = "RollNo" value = "04" /> 
+    <classes>
+      <class name="supportedAttributes.TestClass"/>
+      <class name="supportedAttributes.TestClass2"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
